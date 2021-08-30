@@ -12,27 +12,18 @@ Directory Structure:
 
 * fully_equil_starting_config
 
-Directory structure
+  Directory structure
 
-  * BSA_DS_MR_5
-
-    - NPT equilibration GROMACS files of starting config. necessary to perform MD production run 
-   
-  * BSA_SDS_MR_128
-
-    - NPT equilibration GROMACS files of starting config. necessary to perform MD production run
-   
-  * BSA_TA_MR_128
-   
-    - NPT equilibration GROMACS files of starting config. necessary to perform MD production run
-   
-  * amber99sb-star-ildnp.ff
-   
-    - Protein forcefield files for GROMACS
-
-  * setup_bash_scripts
-
-    - Bash scripts used for simulation setup, equilibration and job submissions 
+    * BSA_DS_MR_5
+      - NPT equilibration GROMACS files of starting config. necessary to perform MD production run 
+    * BSA_SDS_MR_128
+      - NPT equilibration GROMACS files of starting config. necessary to perform MD production run
+    * BSA_TA_MR_128
+      - NPT equilibration GROMACS files of starting config. necessary to perform MD production run
+    * amber99sb-star-ildnp.ff
+      - Protein forcefield files for GROMACS
+    * setup_bash_scripts
+      - Bash scripts used for simulation setup, equilibration and job submissions 
 
 * mdp_files
 
