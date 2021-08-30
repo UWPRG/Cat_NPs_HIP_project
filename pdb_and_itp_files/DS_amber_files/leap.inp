@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#source /gscratch/pfaendtner/sarah/codes/amber20/amber20/dat/leap/cmd/leaprc.GLYCAM_06j-1
+#source /gscratch/pfaendtner/sarah/codes/amber20/amber20/dat/leap/cmd/leaprc.gaff
+#loadamberparams LDN.frcmod
+source leaprc.GLYCAM_06j-1
+loadamberprep LDN.prep
+loadamberprep ADN.prep
+12mer = sequence{ROH ADN ADN ADN ADN ADN ADN ADN ADN ADN ADN ADN LDN}
+#impose d_dimer { 4 } { { "H1" "C1" "O11" "C7" -60 } }
+#impose d_dimer { 4 } { { "C1" "O11" "C7" "C6" -180 } }
+#impose d_dimer { 1 } { { "HO1" "O1" "C1" "H1" -60 } }
+#LDN = loadmol2 LDN.mol2
+saveamberparm 12mer DS_12mer.partop DS_12mer.inpcrd
+#ambpdb -p d_dimer.partop < d_dimer.inpcrd > dd.pdb 
