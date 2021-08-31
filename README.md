@@ -15,11 +15,11 @@ Directory Structure:
   Directory structure
 
     * BSA_DS_MR_5
-      - NPT equilibration GROMACS files of starting config. necessary to perform MD production run 
+      - NPT equilibration GROMACS version 2020.5 files of starting config. necessary to perform MD production run 
     * BSA_SDS_MR_128
-      - NPT equilibration GROMACS files of starting config. necessary to perform MD production run
+      - NPT equilibration GROMACS version 2020.5 files of starting config. necessary to perform MD production run
     * BSA_TA_MR_128
-      - NPT equilibration GROMACS files of starting config. necessary to perform MD production run
+      - NPT equilibration GROMACS version 2020.5 files of starting config. necessary to perform MD production run
     * amber99sb-star-ildnp.ff
       - Protein forcefield files for GROMACS
     * setup_bash_scripts
